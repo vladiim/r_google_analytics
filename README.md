@@ -1,4 +1,3 @@
-R_Google_Analytics
-==============
+# R Google Analytics
 
-From: http://www.statsravingmad.com/blog/measure/google-analytics-r-fun/
+[Blog ref](http://www.statsravingmad.com/blog/measure/google-analytics-r-fun/)
