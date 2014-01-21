@@ -1,10 +1,10 @@
-report.visits <- function(ga_id, start, end) {
+getData.host <- function(ga_id, start, end) {
   dims <- with(dimensions, paste(date, host, sep=','))
 
-  data <- ga$getData(
+  ga$getData(
     ga_id, start, end,
     dimensions = dims,
-    metrics    = query.visits,
+    metrics    = filter.host,
     start      = 1,
     max        = 1000000
   )

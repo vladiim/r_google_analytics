@@ -1,0 +1,1 @@
+db.table.host <- "STG.GA_HOST"
